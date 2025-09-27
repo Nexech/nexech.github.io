@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nexech JSON</title>
+  <meta name="description" content="This site only hosts JSON files. Nothing to see here!" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body { height: 100%; margin:0; font-family: system-ui, sans-serif; line-height:1.5; background:#f5f5f5; color:#222; }
+    .container {
+      min-height:100vh;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      padding:20px;
+    }
+    img.logo {
+      width:160px;
+      height:auto;
+      margin-bottom:1rem;
+    }
+    h1 { font-size:2rem; margin-bottom:0.5rem; }
+    p { font-size:1rem; max-width:480px; }
+    footer { margin-top:2rem; font-size:0.75rem; color:#666; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="assets/nexech_logo.webp" alt="Logo" class="logo" />
+    <p>This site only hosts <strong>JSON</strong> files. Think of it as a fridge for data – it keeps things fresh but isn’t exactly a tourist attraction.</p>
+    <footer>
+      © <span id="year"></span> Nexech
+    </footer>
+  </div>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
