@@ -14,7 +14,7 @@
     "disclaimerVisible": true,
     "disclaimerUrl": "https://nexech.com/disclaimer-mobile",
     "disclaimerUrlSecond": "https://legal.nexech.com/disclaimer",
-    "offerProbability": 100,
+    "offerProbability": 50,
     "labsEnabled": true,
     "chatPhoneNumber": "+90 850 303 7682",
     "whatsappLivechat": true,
