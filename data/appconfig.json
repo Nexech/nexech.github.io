@@ -14,6 +14,7 @@
     "disclaimerVisible": true,
     "disclaimerUrl": "https://nexech.com/disclaimer-mobile",
     "disclaimerUrlSecond": "https://legal.nexech.com/disclaimer",
+    "nativeAdsEnabled": true,
     "subscriptionProbability": 75,
     "offerProbability": 0,
     "labsEnabled": true,
