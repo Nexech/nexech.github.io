@@ -15,6 +15,8 @@
     "disclaimerUrl": "https://nexech.com/disclaimer-mobile",
     "disclaimerUrlSecond": "https://legal.nexech.com/disclaimer",
     "nativeAdsEnabled": true,
+    "fullScreenNativeAdsEnabled": true,
+    "fullScreenNativeAdTimeout": 30000,
     "appOpenAdsEnabled": true,
     "subscriptionProbability": 75,
     "offerProbability": 75,
