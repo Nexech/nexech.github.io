@@ -19,7 +19,7 @@
     "fullScreenNativeAdTimeout": 30000,
     "appOpenAdsEnabled": true,
     "subscriptionProbability": 75,
-    "offerProbability": 75,
+    "offerProbability": 0,
     "labsEnabled": true,
     "chatPhoneNumber": "+90 850 303 7682",
     "whatsappLivechat": true,
