@@ -21,6 +21,8 @@
     "subscriptionProbability": 75,
     "offerProbability": 0,
     "labsEnabled": true,
+    "helpCenterEnabled": false,
+    "helpCenterUrl": "",
     "chatPhoneNumber": "+90 850 303 7682",
     "whatsappLivechat": true,
     "whatsappVisible": false,
