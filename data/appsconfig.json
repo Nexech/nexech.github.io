@@ -36,11 +36,11 @@
   "features": {
     "superAppPromotionCard": false,
     "superAppPreOrder": false,
-    "labsEnabled": true,
-    "helpCenterEnabled": false
+    "labsEnabled": true
   },
 
   "support": {
+    "helpCenterEnabled": true,
     "helpCenterUrl": "https://nexech.com/support/help-center-mobile/",
     "chatPhoneNumber": "+90 850 303 7682",
     "whatsappLivechat": true

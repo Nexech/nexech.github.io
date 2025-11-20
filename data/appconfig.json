@@ -21,7 +21,7 @@
     "subscriptionProbability": 75,
     "offerProbability": 0,
     "labsEnabled": true,
-    "helpCenterEnabled": false,
+    "helpCenterEnabled": true,
     "helpCenterUrl": "https://nexech.com/support/help-center-mobile/",
     "chatPhoneNumber": "+90 850 303 7682",
     "whatsappLivechat": true,
