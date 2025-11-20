@@ -1,0 +1,71 @@
+{
+  "_comment": "General settings and feature flags for Nexech apps",
+
+  "app": {
+    "brandName": "Nexech",
+    "mainWebsite": "https://nexech.com",
+    "appStoreUrl": "https://play.google.com/store/apps/dev?id=6903522841563777177"
+  },
+
+  "legal": {
+    "eulaVersion": 20241205,
+    "eulaWebsite": "https://legal.nexech.com",
+    "privacyPolicyUrl": "https://nexech.com/policies/privacy-policy-mobile",
+    "privacyPolicyUrlSecond": "https://legal.nexech.com/privacy-policy",
+    "termsOfUseUrl": "https://nexech.com/policies/terms-of-use-mobile",
+    "termsOfUseUrlSecond": "https://legal.nexech.com/terms-of-use",
+    "disclaimerVisible": true,
+    "disclaimerUrl": "https://nexech.com/policies/disclaimer-mobile",
+    "disclaimerUrlSecond": "https://legal.nexech.com/disclaimer"
+  },
+
+  "network": {
+    "internetControl": "https://google.com",
+    "adWebsiteControl": "https://apps.admob.com"
+  },
+
+  "ads": {
+    "nativeAdsEnabled": true,
+    "fullScreenNativeAdsEnabled": false,
+    "fullScreenNativeAdTimeout": 30000,
+    "appOpenAdsEnabled": true,
+    "subscriptionProbability": 75,
+    "offerProbability": 0
+  },
+
+  "features": {
+    "superAppPromotionCard": false,
+    "superAppPreOrder": false,
+    "labsEnabled": true,
+    "helpCenterEnabled": false
+  },
+
+  "support": {
+    "helpCenterUrl": "https://nexech.com/support/help-center-mobile/",
+    "chatPhoneNumber": "+90 850 303 7682",
+    "whatsappLivechat": true
+  },
+
+  "social": {
+    "whatsappVisible": false,
+    "whatsappUrl": "https://wa.me/+908503037682",
+
+    "signalVisible": false,
+    "signalUrl": "",
+
+    "xVisible": true,
+    "xUrl": "https://x.com/nexechco",
+
+    "instagramVisible": true,
+    "instagramUrl": "https://www.instagram.com/nexechco/",
+
+    "facebookVisible": true,
+    "facebookUrl": "https://facebook.com/nexech",
+
+    "tiktokVisible": true,
+    "tiktokUrl": "https://www.tiktok.com/@nexechco",
+
+    "youtubeVisible": true,
+    "youtubeUrl": "https://youtube.com/@nexech"
+  }
+}
