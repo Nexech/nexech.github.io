@@ -29,8 +29,8 @@
     "fullScreenNativeAdsEnabled": false,
     "fullScreenNativeAdTimeout": 30000,
     "appOpenAdsEnabled": true,
-    "subscriptionProbability": 100,
-    "offerProbability": 80
+    "subscriptionProbability": 50,
+    "offerProbability": 0
   },
 
   "features": {
