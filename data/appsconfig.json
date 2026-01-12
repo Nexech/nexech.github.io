@@ -31,6 +31,8 @@
   "features": {
     "superAppPromotionCard": false,
     "superAppPreOrder": false,
+    "superAppWatchTrailer": false,
+    "superAppWatchUrl": "https://youtu.be/qulTyArzdbw?si=1PuWeaLja0yl9qM",
     "labsEnabled": true
   },
   "support": {
