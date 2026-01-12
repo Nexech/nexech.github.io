@@ -29,8 +29,9 @@
     "offerProbability": 0
   },
   "features": {
-    "superAppPromotionCard": false,
-    "superAppPreOrder": false,
+    "superAppPromotionCard": true,
+    "superAppProbability": 50,
+    "superAppPreOrder": true,
     "superAppWatchTrailer": false,
     "superAppWatchUrl": "https://youtu.be/qulTyArzdbw?si=1PuWeaLja0yl9qM",
     "labsEnabled": true
