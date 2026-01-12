@@ -20,7 +20,7 @@
     "appOpenAdsEnabled": true,
     "subscriptionProbability": 80,
     "offerProbability": 0,
-    "superAppPromotionCard": true,
+    "superAppPromotion": true,
     "superAppProbability": 50,
     "superAppPreOrder": true,
     "superAppWatchTrailer": false,

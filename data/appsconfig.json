@@ -29,7 +29,7 @@
     "offerProbability": 0
   },
   "features": {
-    "superAppPromotionCard": true,
+    "superAppPromotion": true,
     "superAppProbability": 50,
     "superAppPreOrder": true,
     "superAppWatchTrailer": false,
