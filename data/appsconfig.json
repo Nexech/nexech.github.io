@@ -34,7 +34,7 @@
     "superAppPreOrder": true,
     "superAppWatchTrailer": true,
     "superAppWatchUrl": "https://youtu.be/qulTyArzdbw?si=1PuWeaLja0yl9qM",
-    "labsEnabled": true
+    "labsEnabled": false
   },
   "support": {
     "helpCenterEnabled": true,
