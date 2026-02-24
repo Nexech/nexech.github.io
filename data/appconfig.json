@@ -20,6 +20,7 @@
     "appOpenAdsEnabled": true,
     "subscriptionProbability": 80,
     "offerProbability": 0,
+    "offerEndDate": "2026-03-30T23:59:59+03:00",
     "superAppPromotion": true,
     "superAppProbability": 50,
     "superAppPreOrder": true,
