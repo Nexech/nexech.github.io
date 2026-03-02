@@ -1,7 +1,7 @@
 {
     "_comment": "General settings and feature flags for Nexech apps",
     "brandName": "Nexech",
-    "eulaVersion": 20241205,
+    "eulaVersion": 20260302,
     "mainWebsite": "https://nexech.com",
     "eulaWebsite": "https://legal.nexech.com",
     "internetControl": "https://google.com",
