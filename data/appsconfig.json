@@ -32,9 +32,9 @@
   "features": {
     "superAppPromotion": true,
     "superAppProbability": 50,
-    "superAppPreOrder": true,
+    "superAppPreOrder": false,
     "superAppWatchTrailer": true,
-    "superAppWatchUrl": "https://youtu.be/qulTyArzdbw?si=1PuWeaLja0yl9qM",
+    "superAppWatchUrl": "https://youtu.be/J9cSVJ1jDtc",
     "labsEnabled": false
   },
   "support": {
