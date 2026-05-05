@@ -27,7 +27,7 @@
     "appOpenAdsEnabled": true,
     "subscriptionProbability": 25,
     "offerProbability": 0,
-    "offerEndDate": "2026-04-30T23:59:59+03:00"
+    "offerEndDate": "2026-05-11T23:59:59+03:00"
   },
   "features": {
     "superAppPromotion": true,
