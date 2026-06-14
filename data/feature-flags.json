@@ -1,12 +1,6 @@
 {
   "schemaVersion": 1,
   "expiresAt": 1812153600000,
-  "metadata": {
-    "name": "Nexech Feature Flags",
-    "generatedFor": "NextAppAndroid",
-    "generatedAt": "2026-06-05T12:35:48Z",
-    "schema": "core.flags.v1"
-  },
   "defaults": {
     "app.brand.name": "Nexech",
     "app.website.main_url": "https://nexech.com",
@@ -52,12 +46,11 @@
     "settings.sections.soundwave.enabled": true,
     "settings.sections.browser.enabled": true,
     "settings.sections.nextapp.enabled": true,
-    "settings.sections.labs.enabled": false,
+    "settings.sections.labs.enabled": true,
     "settings.sections.help.enabled": true,
     "settings.subscription.legacy_toggle.enabled": true,
     "settings.main.subscription.enabled": true,
     "settings.main.superapp_promotion.enabled": true,
-    "settings.main.install_mobile.enabled": true,
     "settings.main.about.enabled": true,
     "settings.quicksearch.security.visible": true,
     "settings.about.app_version.visible": true,
