@@ -1,6 +1,5 @@
 {
   "schemaVersion": 1,
-  "expiresAt": 1812153600000,
   "defaults": {
     "app.brand.name": "Nexech",
     "app.website.main_url": "https://nexech.com",
@@ -187,9 +186,9 @@
     "promo.superapp.pre_order.enabled": false,
     "promo.superapp.watch_trailer.enabled": true,
     "promo.superapp.watch_trailer.url": "https://youtu.be/J9cSVJ1jDtc",
-    "promo.subscription.probability": 25,
-    "promo.offer.probability": 0,
-    "promo.offer.end_date": "2026-06-31T23:59:59+03:00"
+    "promo.subscription.probability": 50,
+    "promo.offer.probability": 50,
+    "promo.offer.end_date": "2026-06-30T23:59:59+03:00"
   },
   "rules": [],
   "emergency": {}
