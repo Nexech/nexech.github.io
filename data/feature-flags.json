@@ -31,6 +31,8 @@
     "support.social.instagram.url": "https://www.instagram.com/nexechco/",
     "support.social.facebook.visible": true,
     "support.social.facebook.url": "https://facebook.com/nexech",
+    "support.social.threads.visible": true,
+    "support.social.threads.url": "https://www.threads.com/@nexechco",
     "support.social.tiktok.visible": true,
     "support.social.tiktok.url": "https://www.tiktok.com/@nexechco",
     "support.social.youtube.visible": true,
