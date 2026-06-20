@@ -26,7 +26,7 @@
     "fullScreenNativeAdTimeout": 30000,
     "appOpenAdsEnabled": true,
     "subscriptionProbability": 50,
-    "offerProbability": 50,
+    "offerProbability": 0,
     "offerEndDate": "2026-06-30T23:59:59+03:00"
   },
   "features": {

@@ -204,7 +204,7 @@
     "promo.superapp.watch_trailer.enabled": true,
     "promo.superapp.watch_trailer.url": "https://youtu.be/J9cSVJ1jDtc",
     "promo.subscription.probability": 50,
-    "promo.offer.probability": 50,
+    "promo.offer.probability": 0,
     "promo.offer.end_date": "2026-06-30T23:59:59+03:00"
   },
   "rules": [],
