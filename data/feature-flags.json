@@ -210,13 +210,13 @@
     "features.onboarding.premium_page.enabled": true,
     "features.onboarding.setup.enabled": true,
     "promo.superapp.enabled": true,
-    "promo.superapp.probability": 50,
     "promo.superapp.pre_order.enabled": false,
     "promo.superapp.watch_trailer.enabled": true,
     "promo.superapp.watch_trailer.url": "https://youtu.be/J9cSVJ1jDtc",
-    "promo.subscription.probability": 50,
-    "promo.offer.probability": 0,
-    "promo.offer.end_date": "2026-06-30T23:59:59+03:00"
+    "promo.launch_offer.chance_percent": 50,
+    "promo.discount_offer.launch_chance_percent": 0,
+    "promo.nextapp_upgrade_offer.launch_chance_percent": 50,
+    "promo.discount_offer.end_date": "2026-06-30T23:59:59+03:00"
   },
   "rules": [],
   "emergency": {}
