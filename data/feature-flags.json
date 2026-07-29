@@ -89,6 +89,9 @@
     "features.mainhub.shopping.aliexpress.enabled": true,
     "features.search.ai_models.enabled": true,
     "features.search.ai_suggestion_reranking.enabled": true,
+    "features.search.smart_local_matching.enabled": false,
+    "features.search.bookmark_history_suggestions.enabled": false,
+    "features.search.local_search_bars.enabled": false,
     "features.search.history.enabled": true,
     "features.search.results.enabled": true,
     "features.search.nextapp_apps.enabled": true,
@@ -218,6 +221,52 @@
     "promo.nextapp_upgrade_offer.launch_chance_percent": 50,
     "promo.discount_offer.end_date": "2026-06-30T23:59:59+03:00"
   },
-  "rules": [],
+  "rules": [
+  {
+    "key": "features.search.smart_local_matching.enabled",
+    "value": true,
+    "priority": 100,
+    "minVersion": "12.13.0"
+  },
+  {
+    "key": "features.search.smart_local_matching.enabled",
+    "value": true,
+    "priority": 100,
+    "products": [
+      "NextApp"
+    ],
+    "minVersion": "1.11.0"
+  },
+  {
+    "key": "features.search.bookmark_history_suggestions.enabled",
+    "value": true,
+    "priority": 100,
+    "minVersion": "12.13.0"
+  },
+  {
+    "key": "features.search.bookmark_history_suggestions.enabled",
+    "value": true,
+    "priority": 100,
+    "products": [
+      "NextApp"
+    ],
+    "minVersion": "1.11.0"
+  },
+  {
+    "key": "features.search.local_search_bars.enabled",
+    "value": true,
+    "priority": 100,
+    "minVersion": "12.13.0"
+  },
+  {
+    "key": "features.search.local_search_bars.enabled",
+    "value": true,
+    "priority": 100,
+    "products": [
+      "NextApp"
+    ],
+    "minVersion": "1.11.0"
+  }
+],
   "emergency": {}
 }
