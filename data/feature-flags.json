@@ -220,7 +220,8 @@
     "promo.launch_offer.chance_percent": 50,
     "promo.discount_offer.launch_chance_percent": 0,
     "promo.nextapp_upgrade_offer.launch_chance_percent": 50,
-    "promo.discount_offer.end_date": "2026-06-30T23:59:59+03:00"
+    "promo.discount_offer.end_date": "2026-06-30T23:59:59+03:00",
+    "features.browser.menu_customization.enabled": false
   },
   "rules": [
     {
@@ -285,6 +286,21 @@
         "QuickSearchTV"
       ],
       "minVersion": "12.13.0"
+    },
+    {
+      "key": "features.browser.menu_customization.enabled",
+      "value": true,
+      "priority": 100,
+      "minVersion": "12.13.0"
+    },
+    {
+      "key": "features.browser.menu_customization.enabled",
+      "value": true,
+      "priority": 100,
+      "products": [
+        "NextApp"
+      ],
+      "minVersion": "1.11.0"
     }
   ],
   "emergency": {}
