@@ -109,7 +109,7 @@
     "features.browser.dangerous_site_protection.enabled": true,
     "features.browser.block_insecure_content.enabled": true,
     "features.browser.suspicious_download_warnings.enabled": true,
-    "features.browser.encrypted_dns.enabled": true,
+    "features.browser.encrypted_dns.enabled": false,
     "features.browser.force_dark_websites.enabled": true,
     "features.browser.tracker_blocking.enabled": true,
     "features.browser.ad_blocking.enabled": true,
