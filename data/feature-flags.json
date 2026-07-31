@@ -303,5 +303,7 @@
       "minVersion": "1.11.0"
     }
   ],
-  "emergency": {}
+  "emergency": {
+    "features.browser.encrypted_dns.enabled": false
+  }
 }
