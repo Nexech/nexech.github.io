@@ -225,6 +225,21 @@
   },
   "rules": [
     {
+      "key": "features.browser.encrypted_dns.enabled",
+      "value": true,
+      "priority": 100,
+      "minVersion": "12.13.0"
+    },
+    {
+      "key": "features.browser.encrypted_dns.enabled",
+      "value": true,
+      "priority": 100,
+      "products": [
+        "NextApp"
+      ],
+      "minVersion": "1.11.0"
+    },
+    {
       "key": "features.search.smart_local_matching.enabled",
       "value": true,
       "priority": 100,
@@ -303,7 +318,5 @@
       "minVersion": "1.11.0"
     }
   ],
-  "emergency": {
-    "features.browser.encrypted_dns.enabled": false
-  }
+  "emergency": {}
 }
