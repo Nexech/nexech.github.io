@@ -98,6 +98,7 @@
     "features.search.nextapp_apps.enabled": true,
     "features.search.internal_pages.enabled": true,
     "features.search.engine_selector.enabled": true,
+    "features.web3.enabled": false,
     "features.browser.custom_home.enabled": true,
     "features.browser.default_browser.enabled": true,
     "features.browser.tabs.enabled": true,
