@@ -6,7 +6,6 @@
     "app.store.developer_url": "https://play.google.com/store/apps/dev?id=6903522841563777177",
     "app.connectivity.internet_check_url": "https://google.com",
     "app.connectivity.ads_check_url": "https://apps.admob.com",
-    "app.toolbar_menu_sheet.enabled": true,
     "legal.eula.version": 20260302,
     "legal.eula.primary_url": "https://legal.nexech.com",
     "legal.privacy.primary_url": "https://nexech.com/policies/privacy-policy-mobile",
@@ -71,6 +70,10 @@
     "features.appearance.contrast.enabled": true,
     "features.appearance.font.enabled": true,
     "features.appearance.app_icon_picker.enabled": true,
+    "features.nextui.v2.liquid_glass.enabled": false,
+    "features.nextui.v2.liquid_glass.television.enabled": false,
+    "features.nextui.haptic_feedback.enabled": true,
+    "features.nextui.fluid_motion.enabled": true,
     "features.nextapp.last_activity_restore.enabled": true,
     "features.nextapp.home_menu_editor.enabled": true,
     "features.nextapp.home_search.enabled": true,
@@ -98,7 +101,7 @@
     "features.search.nextapp_apps.enabled": true,
     "features.search.internal_pages.enabled": true,
     "features.search.engine_selector.enabled": true,
-    "features.web3.enabled": false,
+    "features.browser.menu_customization.enabled": false,
     "features.browser.custom_home.enabled": true,
     "features.browser.default_browser.enabled": true,
     "features.browser.tabs.enabled": true,
@@ -150,6 +153,11 @@
     "features.browser.link_opening_preferences.enabled": true,
     "features.browser.download_preferences.enabled": true,
     "features.browser.reader_translation_preferences.enabled": true,
+    "features.browser.bookmarks_data_portability.enabled": true,
+    "features.browser.multipart_downloads.enabled": true,
+    "features.browser.media_detection.enabled": true,
+    "features.browser.dom_interaction.enabled": true,
+    "features.web3.enabled": false,
     "features.gamebooster.entry.enabled": true,
     "features.gamebooster.service.enabled": true,
     "features.gamebooster.framegen.enabled": true,
@@ -180,6 +188,8 @@
     "features.soundwave.effects.virtualizer.enabled": true,
     "features.soundwave.effects.reverb.enabled": true,
     "features.soundwave.spatial_audio.enabled": true,
+    "features.soundwave.preset_transfer.enabled": true,
+    "features.soundwave.diagnostics.enabled": true,
     "features.devicecare.entry.enabled": true,
     "features.devicecare.reminders.enabled": true,
     "features.devicecare.incognito_overlay.enabled": true,
@@ -201,6 +211,8 @@
     "features.security.biometric_login.enabled": true,
     "features.security.locked_downloads.enabled": true,
     "features.security.parental_control.enabled": true,
+    "features.security.screen_recording_detection.enabled": true,
+    "features.security.sensitive_clipboard.enabled": true,
     "ads.sdk_initialization.enabled": true,
     "ads.native.enabled": true,
     "ads.app_open.enabled": true,
@@ -222,7 +234,15 @@
     "promo.discount_offer.launch_chance_percent": 0,
     "promo.nextapp_upgrade_offer.launch_chance_percent": 50,
     "promo.discount_offer.end_date": "2026-06-30T23:59:59+03:00",
-    "features.browser.menu_customization.enabled": false
+    "features.appfunctions.enabled": true,
+    "features.appfunctions.quicksearch.enabled": true,
+    "features.appfunctions.soundwave.enabled": true,
+    "features.appfunctions.devicecare.enabled": true,
+    "features.appfunctions.downloader.enabled": true,
+    "features.appfunctions.burnfixer.enabled": true,
+    "features.appfunctions.tv_navigation.enabled": true,
+    "features.appfunctions.tools.enabled": true,
+    "features.diagnostics.android17_profiling.enabled": true
   },
   "rules": [
     {
@@ -317,6 +337,37 @@
         "NextApp"
       ],
       "minVersion": "1.11.0"
+    },
+    {
+      "key": "features.nextui.v2.liquid_glass.enabled",
+      "value": true,
+      "priority": 100,
+      "minVersion": "13.0.0"
+    },
+    {
+      "key": "features.nextui.v2.liquid_glass.enabled",
+      "value": true,
+      "priority": 100,
+      "products": [
+        "NextApp"
+      ],
+      "minVersion": "2.0.0"
+    },
+    {
+      "key": "features.nextui.v2.liquid_glass.television.enabled",
+      "value": true,
+      "priority": 100,
+      "minVersion": "13.0.0"
+    },
+    {
+      "key": "features.nextui.v2.liquid_glass.television.enabled",
+      "value": true,
+      "priority": 100,
+      "products": [
+        "NextApp",
+        "QuickSearchTV"
+      ],
+      "minVersion": "2.0.0"
     }
   ],
   "emergency": {}
