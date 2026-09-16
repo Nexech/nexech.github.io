@@ -235,8 +235,6 @@
     "ads.policy.pressure.session_budget": 10,
     "ads.policy.session.gap_seconds": 120,
     "ads.app_open.min_completed_sessions": 3,
-    "ads.app_open.min_background_seconds": 120,
-    "ads.app_open.quick_search_min_background_seconds": 180,
     "ads.app_open.session_max": 1,
     "ads.rewarded.window_max": 3,
     "ads.rewarded.window_minutes": 60,
