@@ -504,6 +504,23 @@
         "QuickSearchTV"
       ],
       "minVersion": "2.0.0"
+    },
+    {
+      "key": "features.web3.enabled",
+      "value": true,
+      "priority": 100,
+      "products": [
+        "NextApp"
+      ]
+    },
+    {
+      "key": "features.web3.enabled",
+      "value": true,
+      "priority": 100,
+      "products": [
+        "QuickSearch",
+        "QuickSearchTV"
+      ]
     }
   ],
   "emergency": {}
