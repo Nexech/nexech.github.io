@@ -393,7 +393,7 @@
     "promo.nextapp_upgrade.enabled": true,
     "promo.offer_grant_hours": 72,
     "promo.offer_cooldown_hours": 168,
-    "promo.seasonal.enabled": false,
+    "promo.seasonal.enabled": true,
     "promo.seasonal.offer_id": "",
     "promo.seasonal.anniversary_day": "12-05",
     "promo.seasonal.windows": "",
