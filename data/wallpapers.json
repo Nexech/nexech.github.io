@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "wallpapers": [
+    {
+      "id": "abstract_wallpaper_02",
+      "title": "Abstract 02",
+      "image": "assets/wallpapers/abstract_wallpaper_02.webp",
+      "thumb": "assets/wallpapers/abstract_wallpaper_02_thumb.webp",
+      "sha256": "a9e9e1ec884f17e4db8832f5c53ad9cd7e3e1947d0671f58a975e2bb902eda6b",
+      "bytes": 3090014,
+      "order": 10,
+      "enabled": true
+    },
+    {
+      "id": "abstract_wallpaper_03",
+      "title": "Abstract 03",
+      "image": "assets/wallpapers/abstract_wallpaper_03.webp",
+      "thumb": "assets/wallpapers/abstract_wallpaper_03_thumb.webp",
+      "sha256": "97aa9d17615591369aad5237eda6d31732f7e2bd16142a8404d38a5fa11c9815",
+      "bytes": 3181900,
+      "order": 20,
+      "enabled": true
+    },
+    {
+      "id": "abstract_wallpaper_04",
+      "title": "Abstract 04",
+      "image": "assets/wallpapers/abstract_wallpaper_04.webp",
+      "thumb": "assets/wallpapers/abstract_wallpaper_04_thumb.webp",
+      "sha256": "f52480d909f55e2f37ed9164604e07572c3173c7e3b9c51cf6e7d116a85daad7",
+      "bytes": 3279046,
+      "order": 30,
+      "enabled": true
+    },
+    {
+      "id": "abstract_wallpaper_05",
+      "title": "Abstract 05",
+      "image": "assets/wallpapers/abstract_wallpaper_05.webp",
+      "thumb": "assets/wallpapers/abstract_wallpaper_05_thumb.webp",
+      "sha256": "5033df3ef5b7ae2bb89fd893858220683530044139c71e95ba3f511b2103c176",
+      "bytes": 3143712,
+      "order": 40,
+      "enabled": true
+    },
+    {
+      "id": "abstract_wallpaper_06",
+      "title": "Abstract 06",
+      "image": "assets/wallpapers/abstract_wallpaper_06.webp",
+      "thumb": "assets/wallpapers/abstract_wallpaper_06_thumb.webp",
+      "sha256": "39e4f07e1eff92171a375261072b141f76fb2b961a148f0ec047657b7256d5ed",
+      "bytes": 3458910,
+      "order": 50,
+      "enabled": true
+    },
+    {
+      "id": "nature_wallpaper_01",
+      "title": "Nature 01",
+      "image": "assets/wallpapers/nature_wallpaper_01.webp",
+      "thumb": "assets/wallpapers/nature_wallpaper_01_thumb.webp",
+      "sha256": "e84f367b0ec1bb950ee08c94195dbdde7e1aad468e5f125f9323864dd8d4e323",
+      "bytes": 3154566,
+      "order": 60,
+      "enabled": true
+    },
+    {
+      "id": "nature_wallpaper_02",
+      "title": "Nature 02",
+      "image": "assets/wallpapers/nature_wallpaper_02.webp",
+      "thumb": "assets/wallpapers/nature_wallpaper_02_thumb.webp",
+      "sha256": "678c8ffb2dd7457ff24a713f6e7128beee6299aa9f147c941fb2d6405cb71bd8",
+      "bytes": 4173064,
+      "order": 70,
+      "enabled": true
+    },
+    {
+      "id": "nature_wallpaper_03",
+      "title": "Nature 03",
+      "image": "assets/wallpapers/nature_wallpaper_03.webp",
+      "thumb": "assets/wallpapers/nature_wallpaper_03_thumb.webp",
+      "sha256": "329d5926c58a2e1b7e0f3f408bd4b5f7c77249e9c85f913289dbd0239a577545",
+      "bytes": 4861588,
+      "order": 80,
+      "enabled": true
+    },
+    {
+      "id": "nature_wallpaper_04",
+      "title": "Nature 04",
+      "image": "assets/wallpapers/nature_wallpaper_04.webp",
+      "thumb": "assets/wallpapers/nature_wallpaper_04_thumb.webp",
+      "sha256": "827d949f3850d63157ec8087d6097ee04e6c6d9734470663ebd47045136319fa",
+      "bytes": 3129826,
+      "order": 90,
+      "enabled": true
+    },
+    {
+      "id": "nature_wallpaper_05",
+      "title": "Nature 05",
+      "image": "assets/wallpapers/nature_wallpaper_05.webp",
+      "thumb": "assets/wallpapers/nature_wallpaper_05_thumb.webp",
+      "sha256": "32a7595b9f68d41998ef623167931a0476b08cfc6d6d6f3bbc75377f30069121",
+      "bytes": 4210160,
+      "order": 100,
+      "enabled": true
+    },
+    {
+      "id": "nature_wallpaper_06",
+      "title": "Nature 06",
+      "image": "assets/wallpapers/nature_wallpaper_06.webp",
+      "thumb": "assets/wallpapers/nature_wallpaper_06_thumb.webp",
+      "sha256": "36926b9e1bb2c4749c969730b86a0ce836e2da5a2b9901d9488ae80b21061e81",
+      "bytes": 2982804,
+      "order": 110,
+      "enabled": true
+    },
+    {
+      "id": "gradient_wallpaper_01",
+      "title": "Gradient 01",
+      "image": "assets/wallpapers/gradient_wallpaper_01.webp",
+      "thumb": "assets/wallpapers/gradient_wallpaper_01_thumb.webp",
+      "sha256": "e03ca2f9cb129f182f8dd9407168b166521a8d9c60dbccd8e9544c6f3546df67",
+      "bytes": 2624682,
+      "order": 120,
+      "enabled": true
+    },
+    {
+      "id": "gradient_wallpaper_02",
+      "title": "Gradient 02",
+      "image": "assets/wallpapers/gradient_wallpaper_02.webp",
+      "thumb": "assets/wallpapers/gradient_wallpaper_02_thumb.webp",
+      "sha256": "6bb207d301b7a76f14643e9963c8d056b7bcd24247daae80659f333d61f4d0c4",
+      "bytes": 2760318,
+      "order": 130,
+      "enabled": true
+    }
+  ]
+}
