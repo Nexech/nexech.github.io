@@ -93,6 +93,8 @@
     "features.appearance.font.enabled": true,
     "features.appearance.palette.enabled": true,
     "features.appearance.theme_mode.enabled": true,
+    "features.appearance.wallpaper_catalog.enabled": true,
+    "features.appearance.wallpaper_catalog.url": "https://nexech.github.io/data/wallpapers.json",
     "features.appfunctions.burnfixer.enabled": true,
     "features.appfunctions.devicecare.enabled": true,
     "features.appfunctions.downloader.enabled": true,
