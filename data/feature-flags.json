@@ -205,6 +205,7 @@
     "features.gamebooster.service.enabled": true,
     "features.intelligence.ad_advisor.enabled": false,
     "features.intelligence.alicia.enabled": false,
+    "features.intelligence.alicia.shared_microphone.enabled": false,
     "features.intelligence.alicia.wake_word.enabled": false,
     "features.intelligence.autotuner.enabled": false,
     "features.intelligence.backend_quarantine.enabled": true,
