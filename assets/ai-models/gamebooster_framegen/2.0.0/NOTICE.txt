@@ -1,0 +1,2 @@
+Game Booster - Frame generation 2.0.0
+Copyright (c) 2026 Nexech. All rights reserved.

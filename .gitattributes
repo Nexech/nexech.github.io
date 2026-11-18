@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+assets/ai-models/** -text
+# The catalog signature covers these exact bytes, so no line-ending conversion may touch them.
+data/ai-models.json -text
+data/ai-models.json.sig -text

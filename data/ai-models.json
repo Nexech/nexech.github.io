@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "models": [
+    {
+      "id": "alicia_flash",
+      "title": "Alicia - Voice Commands",
+      "version": "1.0.0",
+      "contract": 3,
+      "minAppVersionCode": 0,
+      "versionFamilies": [
+        2,
+        13
+      ],
+      "fileName": "alicia_flash_v1.0.0.litertlm",
+      "sha256": "a2e8ddaa9a1a8dccbe023d654656afc7f0269f4da06a076cca849b622491d408",
+      "bytes": 643432448,
+      "parts": [
+        {
+          "path": "assets/ai-models/alicia_flash/1.0.0/alicia_flash_v1.0.0.litertlm.part01",
+          "sha256": "6d256dde82aad50eb58554ffe0f5dec8876d311f5b97ecf53c828637a9752fe7",
+          "bytes": 90000000
+        },
+        {
+          "path": "assets/ai-models/alicia_flash/1.0.0/alicia_flash_v1.0.0.litertlm.part02",
+          "sha256": "fa08bef9984c02061bbbdd63f7f03df8b985494e9e4925fe7538ed14800508f2",
+          "bytes": 90000000
+        },
+        {
+          "path": "assets/ai-models/alicia_flash/1.0.0/alicia_flash_v1.0.0.litertlm.part03",
+          "sha256": "2a6eaf29b2f68312568e14c3cf676b87b3348e89661c79d3a16ae0ad2a45bd35",
+          "bytes": 90000000
+        },
+        {
+          "path": "assets/ai-models/alicia_flash/1.0.0/alicia_flash_v1.0.0.litertlm.part04",
+          "sha256": "68322ec65f168a91461a8fe4d73ce0d70d4825861931df4c6015e7011862c29e",
+          "bytes": 90000000
+        },
+        {
+          "path": "assets/ai-models/alicia_flash/1.0.0/alicia_flash_v1.0.0.litertlm.part05",
+          "sha256": "56563a52bec63c58a351f5ef2b05a9bb578b57111ac60f9f17a87025aa117c6d",
+          "bytes": 90000000
+        },
+        {
+          "path": "assets/ai-models/alicia_flash/1.0.0/alicia_flash_v1.0.0.litertlm.part06",
+          "sha256": "7fb01015faac85b8afe3c0e7401bd4c1b2f95acb655eed0b18500b357aa4a190",
+          "bytes": 90000000
+        },
+        {
+          "path": "assets/ai-models/alicia_flash/1.0.0/alicia_flash_v1.0.0.litertlm.part07",
+          "sha256": "55ac9a7883d0b05686bb1e5587a9b0ab3fa66b804c80093c54c34a98aa27976d",
+          "bytes": 90000000
+        },
+        {
+          "path": "assets/ai-models/alicia_flash/1.0.0/alicia_flash_v1.0.0.litertlm.part08",
+          "sha256": "fa2af69fd1215c69968c115dcaf19bb1219bb1469223359377eba8053c1acbaa",
+          "bytes": 13432448
+        }
+      ],
+      "order": 40,
+      "enabled": true
+    },
+    {
+      "id": "search_ai_suggestion",
+      "title": "Quick Search - Smart Suggestions",
+      "version": "2.0.0",
+      "contract": 2,
+      "minAppVersionCode": 0,
+      "versionFamilies": [
+        2,
+        13
+      ],
+      "fileName": "search_ai_suggestion_v2.0.0.tflite",
+      "sha256": "cd7e37d021859ca01c51f1f798401d9e82b90fef166a7b35052d8f193c2170b1",
+      "bytes": 49032,
+      "parts": [
+        {
+          "path": "assets/ai-models/search_ai_suggestion/2.0.0/search_ai_suggestion_v2.0.0.tflite.part01",
+          "sha256": "cd7e37d021859ca01c51f1f798401d9e82b90fef166a7b35052d8f193c2170b1",
+          "bytes": 49032
+        }
+      ],
+      "order": 60,
+      "enabled": true,
+      "extras": [
+        {
+          "fileName": "metadata.json",
+          "path": "assets/ai-models/search_ai_suggestion/2.0.0/metadata.json",
+          "sha256": "23b80e596990df713269616a73f1b5c50a31505070bbdae1f6d243a8953c8e5f",
+          "bytes": 6039
+        }
+      ]
+    },
+    {
+      "id": "gamebooster_framegen",
+      "title": "Game Booster - Frame generation",
+      "version": "2.0.0",
+      "contract": 2,
+      "minAppVersionCode": 0,
+      "versionFamilies": [
+        2,
+        13
+      ],
+      "fileName": "gamebooster_framegen_v2.0.0.tflite",
+      "sha256": "c0b5c92305e6079600580f8beeda9a9273fa0959e2522a83a18ebc35e0e5e1da",
+      "bytes": 1597608,
+      "parts": [
+        {
+          "path": "assets/ai-models/gamebooster_framegen/2.0.0/gamebooster_framegen_v2.0.0.tflite.part01",
+          "sha256": "c0b5c92305e6079600580f8beeda9a9273fa0959e2522a83a18ebc35e0e5e1da",
+          "bytes": 1597608
+        }
+      ],
+      "order": 70,
+      "enabled": true,
+      "extras": [
+        {
+          "fileName": "metadata.json",
+          "path": "assets/ai-models/gamebooster_framegen/2.0.0/metadata.json",
+          "sha256": "4fd85910518dbc57390d62646a05dd88f078d3f963b98400e1d6f5a6f546727c",
+          "bytes": 6125
+        }
+      ]
+    },
+    {
+      "id": "soundwave_frequency_upscaler_5band",
+      "title": "SoundWave - Frequency Upscaler (5 band)",
+      "version": "2.0.0",
+      "contract": 2,
+      "minAppVersionCode": 0,
+      "versionFamilies": [
+        2,
+        13
+      ],
+      "fileName": "soundwave_frequency_upscaler_5band_v2.0.0.tflite",
+      "sha256": "39000f3d6d1c6b83cbfe1dc9368eeb8060017d0a2f4aad498ca7c16ac92f7bcb",
+      "bytes": 21880,
+      "parts": [
+        {
+          "path": "assets/ai-models/soundwave_frequency_upscaler_5band/2.0.0/soundwave_frequency_upscaler_5band_v2.0.0.tflite.part01",
+          "sha256": "39000f3d6d1c6b83cbfe1dc9368eeb8060017d0a2f4aad498ca7c16ac92f7bcb",
+          "bytes": 21880
+        }
+      ],
+      "order": 80,
+      "enabled": true,
+      "extras": [
+        {
+          "fileName": "metadata.json",
+          "path": "assets/ai-models/soundwave_frequency_upscaler_5band/2.0.0/metadata.json",
+          "sha256": "cca7b9898fdb822cd2752a39197a74956107bf3f3fae4f3f48d1f3fac6817bd0",
+          "bytes": 3581
+        }
+      ]
+    },
+    {
+      "id": "soundwave_frequency_upscaler_10band",
+      "title": "SoundWave - Frequency Upscaler (10 band)",
+      "version": "2.0.0",
+      "contract": 2,
+      "minAppVersionCode": 0,
+      "versionFamilies": [
+        2,
+        13
+      ],
+      "fileName": "soundwave_frequency_upscaler_10band_v2.0.0.tflite",
+      "sha256": "4224c76c1c8b3d083d999d140c7f8cdd18f4d105d1ea553ba242360c7380e6d5",
+      "bytes": 24832,
+      "parts": [
+        {
+          "path": "assets/ai-models/soundwave_frequency_upscaler_10band/2.0.0/soundwave_frequency_upscaler_10band_v2.0.0.tflite.part01",
+          "sha256": "4224c76c1c8b3d083d999d140c7f8cdd18f4d105d1ea553ba242360c7380e6d5",
+          "bytes": 24832
+        }
+      ],
+      "order": 81,
+      "enabled": true,
+      "extras": [
+        {
+          "fileName": "metadata.json",
+          "path": "assets/ai-models/soundwave_frequency_upscaler_10band/2.0.0/metadata.json",
+          "sha256": "63cc25fe251c12dab6090fd0dbc0100533190bcf046d38ab6cdf2f2e830fe059",
+          "bytes": 3799
+        }
+      ]
+    }
+  ]
+}

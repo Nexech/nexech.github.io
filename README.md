@@ -8,6 +8,8 @@ pushing a change publishes it.
 | `data/feature-flags.json` | Remote feature flags. |
 | `data/wallpapers.json` | Wallpaper catalog for the v2 wallpaper picker. |
 | `assets/wallpapers/` | Wallpaper images (`<id>.webp`) and 400 px thumbnails (`<id>_thumb.webp`). |
+| `data/ai-models.json` | AI model catalog read by the Manage models page. |
+| `assets/ai-models/<id>/<version>/` | Model files, split into parts of at most 90 MB (GitHub rejects larger files), with a `NOTICE.txt`. |
 | `tools/add-wallpaper.py` | Adds or updates a catalog entry from a local image. |
 
 ## Adding a wallpaper
@@ -23,3 +25,16 @@ reuse an id for a different image: the app trusts the digest in the feed but kee
 Changing the image of an existing id requires a new id.
 
 The feed is unsigned on purpose, so changes apply immediately. Keep write access to this repository restricted.
+
+## Publishing an AI model
+
+Run the publisher from the NextAppAndroid repository after validating the final model export.
+
+```powershell
+python tools/alicia/publish_model.py --site <this-checkout> release --id alicia_flash --title "Alicia - Voice Commands" --model <export.litertlm> --version 1.0.0 --contract 3
+```
+
+The publisher writes the download parts and `NOTICE.txt` under `assets/ai-models/<id>/<version>/` and adds the release
+to `data/ai-models.json`. Keep earlier releases so compatible apps can resolve the newest version they support.
+Publish each payload under a new version and set `contract`, `minAppVersionCode` and `versionFamilies` for its runtime
+requirements. Nexech OS and Nexech Ads ship with the app. The catalog carries downloadable models.

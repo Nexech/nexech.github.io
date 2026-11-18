@@ -1,0 +1,110 @@
+{
+  "analysis_range_hz": [
+    30.64523510731495,
+    23040.0
+  ],
+  "artifact_release": "2.0",
+  "band_centers_hz": [
+    60.0,
+    230.0,
+    910.0,
+    3600.0,
+    14000.0
+  ],
+  "baseline_comparison": {
+    "bootstrap_95ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 0.8334666297445201,
+      "relative_improvement": 0.8377379172338161,
+      "samples": 1000,
+      "upper_bound": 0.8419583988846691
+    },
+    "metric": "held-out MAE per content type, measured on the exported tflite",
+    "minimum_relative_improvement": 0.1,
+    "music": {
+      "baseline_mae": 0.14409960806369781,
+      "bootstrap_95ci": {
+        "confidence_level": 0.95,
+        "lower_bound": 0.8453716297023364,
+        "relative_improvement": 0.8512205422772887,
+        "samples": 1000,
+        "upper_bound": 0.8568571954586358
+      },
+      "candidate_mae": 0.02143906243145466,
+      "examples": 7500,
+      "relative_improvement": 0.8512205361309676
+    },
+    "passed": true,
+    "speech": {
+      "baseline_mae": 0.14376266300678253,
+      "bootstrap_95ci": {
+        "confidence_level": 0.95,
+        "lower_bound": 0.8175723803841874,
+        "relative_improvement": 0.8242236924034858,
+        "samples": 1000,
+        "upper_bound": 0.8307760293280028
+      },
+      "candidate_mae": 0.025270069018006325,
+      "examples": 7500,
+      "relative_improvement": 0.82422369974592
+    }
+  },
+  "copyright": "Copyright (c) 2026 Nexech. All rights reserved.",
+  "cuda_training": {
+    "driver_version": "610.88",
+    "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "passed": true,
+    "result_device": "/job:localhost/replica:0/task:0/device:GPU:0",
+    "vram_gb": 7.99609375
+  },
+  "dataset_manifest_sha256": "6da5a9d87d81ee0f4c5805fee8d2b2594b9335e6691feb54d7dbc4f1fcd556c1",
+  "epochs_trained": 33,
+  "golden_tests": {
+    "passed": true,
+    "tensor_abi": {
+      "input_dtype": "float32",
+      "input_name": "serving_default_inputs:0",
+      "input_shape": [
+        1,
+        5
+      ],
+      "output_dtype": "float32",
+      "output_name": "StatefulPartitionedCall_1:0",
+      "output_shape": [
+        1,
+        5
+      ],
+      "sample_output": [
+        [
+          0.9647747874259949,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  "model_bytes": 21648,
+  "model_name": "soundwave_frequency_upscaler_5band_v20",
+  "model_sha256": "83d8ba52fd59392de672ae02e78b2806fb312d905247b4eb1add15979d77e742",
+  "music_coverage_limitation": "orchestral, acoustic and cinematic effects only; no electronic, rock or hip-hop material is represented",
+  "music_manifest_sha256": "a980513251f1af0e586b94f628797a3d33346db80545fe4ec564628c856454d4",
+  "music_share": 0.5,
+  "published_file": {
+    "file_name": "soundwave_frequency_upscaler_5band_v2.0.0.tflite",
+    "note": "Same graph and weights as model_sha256 (outputs verified bit-identical); the file additionally carries the Nexech copyright notice in its description and nexech_notice metadata.",
+    "sha256": "39000f3d6d1c6b83cbfe1dc9368eeb8060017d0a2f4aad498ca7c16ac92f7bcb"
+  },
+  "reproducibility": {
+    "seed": 20260826,
+    "training_code_sha256": "a50dc2b42d11b3a01d17f1d0de758763b27acd2f38306da70eecc1bfad85975a"
+  },
+  "speaker_disjoint_test": true,
+  "test_examples": 15000,
+  "track_disjoint_music_test": true,
+  "training_examples": 120000,
+  "training_scope": "speech_and_music_band_restoration",
+  "validation_examples": 15000,
+  "version": "2.0.0"
+}

@@ -204,6 +204,8 @@
     "features.gamebooster.panel_screenshot.enabled": true,
     "features.gamebooster.service.enabled": true,
     "features.intelligence.ad_advisor.enabled": false,
+    "features.intelligence.alicia.enabled": false,
+    "features.intelligence.alicia.wake_word.enabled": false,
     "features.intelligence.autotuner.enabled": false,
     "features.intelligence.backend_quarantine.enabled": true,
     "features.intelligence.buffer_pool.enabled": true,
@@ -222,9 +224,11 @@
     "features.intelligence.local_telemetry.enabled": true,
     "features.intelligence.master.enabled": true,
     "features.intelligence.model_integrity.enabled": true,
+    "features.intelligence.models.catalog_url": "https://nexech.github.io/data/ai-models.json",
     "features.intelligence.nexech_os_bridge.enabled": false,
     "features.intelligence.npu.enabled": true,
     "features.intelligence.output_validation.enabled": true,
+    "features.intelligence.quota.cost.alicia.inference_units": 60,
     "features.intelligence.quota.cost.gamebooster_framegen.activation_units": 150,
     "features.intelligence.quota.cost.gamebooster_framegen.active_minute_units": 300,
     "features.intelligence.quota.cost.gamebooster_framegen_v20.activation_units": 150,
@@ -562,6 +566,24 @@
         1,
         2,
         12,
+        13
+      ]
+    },
+    {
+      "key": "features.intelligence.alicia.enabled",
+      "value": true,
+      "priority": 100,
+      "versionFamilies": [
+        2,
+        13
+      ]
+    },
+    {
+      "key": "features.intelligence.alicia.wake_word.enabled",
+      "value": true,
+      "priority": 100,
+      "versionFamilies": [
+        2,
         13
       ]
     },

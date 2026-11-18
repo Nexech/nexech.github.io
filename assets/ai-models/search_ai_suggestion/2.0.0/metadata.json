@@ -1,0 +1,248 @@
+{
+  "artifact_release": "2.0",
+  "baseline_comparison": {
+    "baseline_mae": 0.03204746171832085,
+    "bootstrap_95ci": {
+      "confidence_level": 0.95,
+      "lower_bound": 0.7181721462712979,
+      "relative_improvement": 0.7354252771487112,
+      "samples": 1000,
+      "upper_bound": 0.7535860669426807
+    },
+    "candidate_mae": 0.008478948846459389,
+    "examples": 60000,
+    "metric": "held-out MAE, measured on the exported tflite",
+    "minimum_relative_improvement": 0.02,
+    "passed": true,
+    "per_script": {
+      "arabic": {
+        "baseline_mae": 0.026018893346190453,
+        "candidate_mae": 0.008762753568589687,
+        "examples": 4096,
+        "relative_improvement": 0.6632157466500134
+      },
+      "bengali": {
+        "baseline_mae": 0.05054279416799545,
+        "candidate_mae": 0.02030361071228981,
+        "examples": 4096,
+        "relative_improvement": 0.5982887165912486
+      },
+      "cyrillic": {
+        "baseline_mae": 0.030580323189496994,
+        "candidate_mae": 0.008708870969712734,
+        "examples": 4096,
+        "relative_improvement": 0.7152132462516337
+      },
+      "devanagari": {
+        "baseline_mae": 0.028587255626916885,
+        "candidate_mae": 0.014281908050179482,
+        "examples": 4096,
+        "relative_improvement": 0.5004099646161182
+      },
+      "han": {
+        "baseline_mae": 0.05889279395341873,
+        "candidate_mae": 0.014514828100800514,
+        "examples": 4096,
+        "relative_improvement": 0.7535381304496944
+      },
+      "hangul": {
+        "baseline_mae": 0.02941649593412876,
+        "candidate_mae": 0.00863960012793541,
+        "examples": 4096,
+        "relative_improvement": 0.7063008406139965
+      },
+      "japanese": {
+        "baseline_mae": 0.047763675451278687,
+        "candidate_mae": 0.01291639357805252,
+        "examples": 4096,
+        "relative_improvement": 0.7295770592188224
+      },
+      "latin": {
+        "baseline_mae": 0.030660832300782204,
+        "candidate_mae": 0.00851297564804554,
+        "examples": 4096,
+        "relative_improvement": 0.7223501448188554
+      },
+      "tamil": {
+        "baseline_mae": 0.03370048105716705,
+        "candidate_mae": 0.01433226652443409,
+        "examples": 4096,
+        "relative_improvement": 0.5747162629482389
+      },
+      "thai": {
+        "baseline_mae": 0.03233494982123375,
+        "candidate_mae": 0.012719504535198212,
+        "examples": 4096,
+        "relative_improvement": 0.6066329279767259
+      }
+    },
+    "relative_improvement": 0.7354252601661693
+  },
+  "copyright": "Copyright (c) 2026 Nexech. All rights reserved.",
+  "cuda_training": {
+    "driver_version": "616.56",
+    "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "passed": true,
+    "result_device": "/job:localhost/replica:0/task:0/device:GPU:0",
+    "vram_gb": 7.99609375
+  },
+  "dataset_manifest_sha256": "0468d9f4bbe16d8cbcacad7d620608d1d31f84b388d9a3965035e5a4e448e039",
+  "entity_disjoint_test": true,
+  "epochs_trained": 15,
+  "feature_count": 18,
+  "golden_tests": {
+    "ordering_pairs": 8,
+    "passed": true,
+    "scripts_covered": 10
+  },
+  "labels_per_language": {
+    "ar": 4950,
+    "az": 2560,
+    "bn": 3033,
+    "da": 2634,
+    "de": 6046,
+    "en": 33436,
+    "es": 5757,
+    "fa": 3552,
+    "fr": 5936,
+    "hi": 1371,
+    "id": 3526,
+    "it": 5693,
+    "ja": 3432,
+    "kk": 1756,
+    "ko": 3321,
+    "nb": 3220,
+    "nl": 7434,
+    "pl": 3391,
+    "pt": 4278,
+    "ru": 5375,
+    "sv": 5756,
+    "ta": 1439,
+    "th": 1938,
+    "tl": 1207,
+    "tr": 3646,
+    "uk": 4010,
+    "ur": 2767,
+    "uz": 1555,
+    "vi": 2951,
+    "zh": 5659
+  },
+  "language_coverage": [
+    "ar",
+    "az",
+    "bn",
+    "da",
+    "de",
+    "en",
+    "es",
+    "fa",
+    "fr",
+    "hi",
+    "id",
+    "it",
+    "ja",
+    "kk",
+    "ko",
+    "nb",
+    "nl",
+    "pl",
+    "pt",
+    "ru",
+    "sv",
+    "ta",
+    "th",
+    "tl",
+    "tr",
+    "uk",
+    "ur",
+    "uz",
+    "vi",
+    "zh"
+  ],
+  "locale_coverage": 32,
+  "locales": [
+    "ar",
+    "az-AZ",
+    "bn-BD",
+    "da-DK",
+    "de-DE",
+    "en-GB",
+    "en-US",
+    "es-ES",
+    "es-MX",
+    "fa-IR",
+    "fil-PH",
+    "fr-FR",
+    "hi-IN",
+    "id-ID",
+    "it-IT",
+    "ja-JP",
+    "kk-KZ",
+    "ko-KR",
+    "nb-NO",
+    "nl-NL",
+    "pl-PL",
+    "pt-PT",
+    "ru-RU",
+    "sv-SE",
+    "ta-IN",
+    "th-TH",
+    "tr-TR",
+    "uk-UA",
+    "ur-PK",
+    "uz-UZ",
+    "vi-VN",
+    "zh-CN"
+  ],
+  "model_bytes": 48824,
+  "model_name": "quicksearch_ai_suggestion_v20",
+  "model_sha256": "ea5f1d08ccfcac19ddf5568f731f413009bfdf3eff0adaa79d2c4b847574ab3b",
+  "pairwise_training": {
+    "ran": false,
+    "reason": "disabled by --pairwise-epochs=0"
+  },
+  "published_file": {
+    "file_name": "search_ai_suggestion_v2.0.0.tflite",
+    "note": "Same graph and weights as model_sha256 (outputs verified bit-identical); the file additionally carries the Nexech copyright notice in its description and nexech_notice metadata.",
+    "sha256": "cd7e37d021859ca01c51f1f798401d9e82b90fef166a7b35052d8f193c2170b1"
+  },
+  "reproducibility": {
+    "seed": 20260826,
+    "training_code_sha256": "b582a7d31585f4aa14b237ad8f52da844b8e8ba268cda4bda854f9ee5c53cd75"
+  },
+  "script_families": [
+    "arabic",
+    "latin",
+    "bengali",
+    "devanagari",
+    "japanese",
+    "cyrillic",
+    "hangul",
+    "tamil",
+    "thai",
+    "han"
+  ],
+  "test_examples": 60000,
+  "tflite": {
+    "input_dtype": "float32",
+    "input_name": "serving_default_features:0",
+    "input_shape": [
+      1,
+      18
+    ],
+    "output_dtype": "float32",
+    "output_name": "StatefulPartitionedCall_1:0",
+    "output_shape": [
+      1,
+      1
+    ],
+    "sample_output": [
+      [
+        0.8854254484176636
+      ]
+    ]
+  },
+  "training_examples": 1000000,
+  "validation_examples": 60000,
+  "version": "2.0.0"
+}

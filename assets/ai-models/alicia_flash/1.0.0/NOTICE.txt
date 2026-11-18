@@ -1,0 +1,9 @@
+Alicia - Voice Commands 1.0.0
+Copyright (c) 2026 Nexech. All rights reserved.
+
+Alicia Flash is based on Qwen3-0.6B by the Qwen Team, Alibaba Cloud, licensed under the Apache License,
+Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0).
+
+Changes made by Nexech: the base model was fine-tuned (LoRA) for on-device voice command routing with its complete
+vocabulary kept, and the model was merged, quantized and converted to the LiteRT-LM format.
+Training data is Nexech-authored multilingual command phrases; no third-party corpus was used.

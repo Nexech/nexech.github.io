@@ -1,0 +1,198 @@
+{
+  "artifact_release": "2.0",
+  "capacity": "standard",
+  "dataset_manifest_sha256": "7350e9deba95544f176677de89469727ceba4b3634bdbc28b063807e5c9818cd",
+  "export_max_abs_difference": 0.007527023553848267,
+  "gate_revision": 2,
+  "gates": {
+    "confidence_tracks_error": true,
+    "exported_tflite_reproduces_held_out_metrics": true,
+    "outputs_finite": true,
+    "real_all_pairs_not_worse": true,
+    "real_moving_pairs_improve_with_positive_ci": true,
+    "synthetic_epe_improves_at_least_40_percent": true
+  },
+  "input_layout": "NHWC [previous RGB 0..1, current RGB 0..1, constant 0.5]",
+  "keras_metrics": {
+    "confidence_error_correlation": 0.6933728986948134,
+    "examples": 3000,
+    "finite": true,
+    "real_all_pairs_improvement": {
+      "ci95_high": 0.22887487709522247,
+      "ci95_low": 0.20188052654266359,
+      "relative_improvement": 0.21585685014724731
+    },
+    "real_moving_pairs_improvement": {
+      "ci95_high": 0.31801932901144025,
+      "ci95_low": 0.2919735014438629,
+      "relative_improvement": 0.3050045967102051
+    },
+    "real_photometric": 0.03958753123879433,
+    "real_zero_flow_photometric": 0.05048508197069168,
+    "synthetic_epe_improvement": {
+      "ci95_high": 0.8805603742599487,
+      "ci95_low": 0.8750074431300163,
+      "relative_improvement": 0.8778896927833557
+    },
+    "synthetic_epe_px": 1.0501124858856201,
+    "synthetic_zero_flow_epe_px": 8.599702835083008
+  },
+  "max_flow_px": 16.0,
+  "model_name": "gamebooster_framegen",
+  "output_layout": "NHWC [flow_x, flow_y (tanh * max_flow_px thumbnail pixels, previous->current), confidence 0..1]",
+  "output_semantics": "optical_flow_prior_v1",
+  "parameters": 788067,
+  "published_file": {
+    "file_name": "gamebooster_framegen_v2.0.0.tflite",
+    "note": "Same graph and weights as model_sha256 (outputs verified bit-identical); the file additionally carries the Nexech copyright notice in its description and nexech_notice metadata.",
+    "sha256": "c0b5c92305e6079600580f8beeda9a9273fa0959e2522a83a18ebc35e0e5e1da"
+  },
+  "quantization": "float16_weights",
+  "release_gate": {
+    "passed": true
+  },
+  "schema_version": 3,
+  "source_disjoint_test": true,
+  "test_film": [
+    "Big Buck Bunny"
+  ],
+  "tflite": {
+    "bytes": 1597396,
+    "input_dtype": "float32",
+    "input_shape": [
+      1,
+      64,
+      112,
+      7
+    ],
+    "output_dtype": "float32",
+    "output_shape": [
+      1,
+      64,
+      112,
+      3
+    ],
+    "sha256": "729326d0a8bec9f5bd78ec7e03f89ce18a8e01b231206d48a803cda1d34669e1"
+  },
+  "tflite_metrics": {
+    "confidence_error_correlation": 0.6934596551085109,
+    "examples": 3000,
+    "finite": true,
+    "real_all_pairs_improvement": {
+      "ci95_high": 0.22883925586938858,
+      "ci95_low": 0.20183876901865005,
+      "relative_improvement": 0.21581625938415527
+    },
+    "real_moving_pairs_improvement": {
+      "ci95_high": 0.3180016651749611,
+      "ci95_low": 0.29195350110530854,
+      "relative_improvement": 0.3049868941307068
+    },
+    "real_photometric": 0.03958958014845848,
+    "real_zero_flow_photometric": 0.05048508197069168,
+    "synthetic_epe_improvement": {
+      "ci95_high": 0.8805597946047783,
+      "ci95_low": 0.8750086352229118,
+      "relative_improvement": 0.8778910636901855
+    },
+    "synthetic_epe_px": 1.0501004457473755,
+    "synthetic_zero_flow_epe_px": 8.599702835083008
+  },
+  "thumbnail": {
+    "height": 64,
+    "width": 112
+  },
+  "training": {
+    "batch_size": 64,
+    "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "history": [
+      {
+        "epe": 1.054815411567688,
+        "loss": 1.4691358804702759,
+        "photo": 0.03894329071044922,
+        "seconds": 4355.9,
+        "step": 55500,
+        "zero_epe": 8.910571098327637
+      },
+      {
+        "epe": 1.0463683605194092,
+        "loss": 1.4650933742523193,
+        "photo": 0.04790649190545082,
+        "seconds": 4396.9,
+        "step": 56000,
+        "zero_epe": 8.59745979309082
+      },
+      {
+        "epe": 1.5359987020492554,
+        "loss": 1.958303451538086,
+        "photo": 0.04796460643410683,
+        "seconds": 4438.6,
+        "step": 56500,
+        "zero_epe": 7.979080677032471
+      },
+      {
+        "epe": 1.1000556945800781,
+        "loss": 1.5210908651351929,
+        "photo": 0.042497728019952774,
+        "seconds": 4478.1,
+        "step": 57000,
+        "zero_epe": 8.771974563598633
+      },
+      {
+        "epe": 1.0711420774459839,
+        "loss": 1.4924782514572144,
+        "photo": 0.051953136920928955,
+        "seconds": 4518.6,
+        "step": 57500,
+        "zero_epe": 7.619748592376709
+      },
+      {
+        "epe": 0.947883129119873,
+        "loss": 1.3549065589904785,
+        "photo": 0.0453692302107811,
+        "seconds": 4559.8,
+        "step": 58000,
+        "zero_epe": 8.302690505981445
+      },
+      {
+        "epe": 1.0581727027893066,
+        "loss": 1.4934347867965698,
+        "photo": 0.0564359575510025,
+        "seconds": 4604.0,
+        "step": 58500,
+        "zero_epe": 9.079529762268066
+      },
+      {
+        "epe": 1.2757283449172974,
+        "loss": 1.6871700286865234,
+        "photo": 0.050147999078035355,
+        "seconds": 4650.1,
+        "step": 59000,
+        "zero_epe": 6.556303977966309
+      },
+      {
+        "epe": 1.0660336017608643,
+        "loss": 1.4814094305038452,
+        "photo": 0.04771208390593529,
+        "seconds": 4694.4,
+        "step": 59500,
+        "zero_epe": 9.017345428466797
+      },
+      {
+        "epe": 0.866607129573822,
+        "loss": 1.278071641921997,
+        "photo": 0.043808069080114365,
+        "seconds": 4733.9,
+        "step": 60000,
+        "zero_epe": 8.376442909240723
+      }
+    ],
+    "learning_rate": 0.002,
+    "seconds": 4796.2,
+    "seed": 20261020,
+    "steps": 60000,
+    "tensorflow": "2.21.0"
+  },
+  "training_code_sha256": "21f489d62fd0d3cd3f8a71802f91813a4c17ebd33ad1d08271ebff8b5480b56c",
+  "training_precision": "float32"
+}
