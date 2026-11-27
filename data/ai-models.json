@@ -91,6 +91,37 @@
       ]
     },
     {
+      "id": "devicecare_ranker",
+      "title": "Device Care - Recommendation order",
+      "version": "1.0.0",
+      "contract": 5,
+      "minAppVersionCode": 0,
+      "versionFamilies": [
+        2,
+        13
+      ],
+      "fileName": "devicecare_ranker_v1.0.0.tflite",
+      "sha256": "87879f2e178e62dd55e608d7be9779c454c3e6e6f6ffa827d37bb0ca5398ebe1",
+      "bytes": 688304,
+      "parts": [
+        {
+          "path": "assets/ai-models/devicecare_ranker/1.0.0/devicecare_ranker_v1.0.0.tflite.part01",
+          "sha256": "87879f2e178e62dd55e608d7be9779c454c3e6e6f6ffa827d37bb0ca5398ebe1",
+          "bytes": 688304
+        }
+      ],
+      "order": 70,
+      "enabled": true,
+      "extras": [
+        {
+          "fileName": "metadata.json",
+          "path": "assets/ai-models/devicecare_ranker/1.0.0/metadata.json",
+          "sha256": "41435e575990a0bb0216f76d2a0392869b614e25a9c55dea2f795e9a214d7995",
+          "bytes": 12149
+        }
+      ]
+    },
+    {
       "id": "gamebooster_framegen",
       "title": "Game Booster - Frame generation",
       "version": "2.0.0",
